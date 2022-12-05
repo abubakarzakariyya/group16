@@ -1,0 +1,18 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block content %}
+
+<h3>PHOTOS: {{ photo.name }}</h>
+rghhrh
+
+<div class="col-md-8">
+  <p>{{ photo.name }}</p> <br/>
+  <p>{{ photo.address }}</p> <br/>
+  <p>{{ photo.fire_degree }}</p>  <br/>
+  <p>{{ photo.fire_departments }}</p> <br/>
+  <p>{{ photo.No_of_tanks  }}</p> <br/>
+  <p>{{ photo.water_hoses }}</p> <br/>
+  <p>{{ photo.comments }}</p><br/>
+  <p>{{ photo.date_time_started }}</p><br/>
+</div>
+  {% endblock content %}
